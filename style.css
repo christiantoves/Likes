@@ -1,0 +1,92 @@
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+    /* outline: 1px solid red; */
+}
+.nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    padding-left: 10px;
+}
+.your-feed{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+.col1{
+    height: 100%;
+    width: 100px;
+    outline: 1px solid black;
+    flex: 1;
+    margin-right: 20px;
+}
+.profile{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+;
+}
+#prof-pic{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.col2{
+    height: 100%;
+    width: 100px;
+    flex: 3;
+}
+.neil{
+    outline: 1px solid black;
+    padding: 10px;
+}
+.neil-top{
+    display: flex;
+    justify-content:space-between;
+}
+.neil-like{
+    display: flex;
+    align-items: center;
+}
+.nichole{
+    outline: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nichole-top{
+    display: flex;
+    justify-content: space-between;
+}
+.nichole-like{
+    display: flex;
+    align-items: center;
+}
+.jim {
+    outline: 1px solid black;
+    padding: 10px;
+}
+.jim-top{
+    display: flex;
+    justify-content: space-between;
+}
+.jim-like{
+    display: flex;
+    align-items: center;
+}
+button {
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+    margin-left: 20px;
+}
+.bot-text{
+    text-align: left;
+}
